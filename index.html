@@ -2,20 +2,155 @@
 <html>
 <head>
     <title>Abhinav P M</title>
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px;
+            gap: 40px;
+        }
+
+        /* LEFT SIDEBAR */
+        .sidebar {
+            width: 250px;
+        }
+
+        .sidebar img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .sidebar h2 {
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        .sidebar p {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .links a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* 🔥 Hover effect */
+.links a:hover {
+    color: #0073e6;
+    transform: translateX(5px);
+}
+
+        /* RIGHT CONTENT */
+        .content {
+            flex: 1;
+        }
+
+        .content h1 {
+            font-size: 34px;
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1>Hi, I'm Abhinav</h1>
-    <p>PhD Scholar at IIIT Hyderabad</p>
 
-    <h2>Research Interests</h2>
-    <ul>
-        Reasoning & LLMs
-    </ul>
+<div class="container">
 
-    <h2>Publications</h2>
-    <p>Update soon...</p>
+    <!-- LEFT -->
+    <div class="sidebar">
+        <img src="images/profile.jpg" alt="Abhinav">
 
-    <h2>Contact</h2>
-    <p>Email: abhinav.pm@research.iiit.ac.in</p>
+        <h2>Abhinav P M</h2>
+        <p>PhD Scholar<br>IIIT Hyderabad</p>
+
+        <div class="links">
+            <a href="mailto:your-email@example.com">📧 Email</a>
+            <a href="https://www.linkedin.com/in/abhinav-p-m/">🔗 LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=IARx23EAAAAJ&hl=en">🎓 Google Scholar</a>
+            <a href="https://github.com/abhinav-pm">💻 GitHub</a>
+        </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="content">
+
+        <h1>Abhinav P M</h1>
+
+        <p>
+        Hi 👋, I’m Abhinav. I am a PhD scholar at IIIT Hyderabad, working at LTRC.
+        My research focuses on Natural Language Processing, Large Language Models,
+        and multilingual reasoning, particularly in Indian languages.
+        </p>
+
+        <p><b>Research Interests:</b></p>
+
+        <ul>
+            <li>Multilingual reasoning in large language models</li>
+            <li>Low-resource and Indic NLP</li>
+            <li>Linguistically informed modeling (morphology, syntax)</li>
+            <li>Machine translation for Indian languages</li>
+        </ul>
+
+        <p>
+        I am interested in understanding how LLMs reason in multilingual settings
+        and how linguistic knowledge can improve performance on low-resource languages.
+        </p>
+
+        <!-- 🔷 Publications -->
+        <h2>Published Work</h2>
+
+        <ul>
+            <li>
+                <b>The Riddle of Reflection: Evaluating Reasoning and Self-Awareness in Multilingual LLMs</b><br>
+                LREC 2026 (Accepted)
+            </li>
+
+            <li>
+                <b>Family Helps One Another: Dravidian NLP Suite for Natural Language Understanding</b><br>
+                Findings of IJCNLP-AACL 2025
+            </li>
+
+            <li>
+                <b>Enhancing Machine Translation Performance using mBART</b><br>
+                Springer CCIS (Accepted)
+            </li>
+
+            <li>
+                <b>MTNLP-IIITH: Machine Translation for Low-Resource Indic Languages</b><br>
+                WMT 2024 Shared Task
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
 </body>
 </html>
